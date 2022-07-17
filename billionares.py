@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # getting csv file
-data = pd.read_csv("billionares.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/raunak101172/projects/master/billionares.csv")
 print(data.head())
 # checking if any table has empty values
 print(data.isnull().sum())
