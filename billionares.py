@@ -3,10 +3,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-read_file = pd.read_csv (r"C:\Users\beetl\OneDrive\Documents\billionares.txt")
-read_file.to_csv (r'C:\Users\beetl\OneDrive\Documents\billionares_new.csv', index=None)
 # getting csv file
-data = pd.read_csv("billionares_new.csv")
+data = pd.read_csv("billionares.csv")
 print(data.head())
 # checking if any table has empty values
 print(data.isnull().sum())
